@@ -1,0 +1,1 @@
+lmdb_helper_proxy中为对lmdb进行操作的函数

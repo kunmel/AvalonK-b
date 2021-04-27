@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\blockchain_connector",
+    "\\blockchain_connector\\common",
+    "\\blockchain_connector\\common\\connector_common",
+    "\\blockchain_connector\\fabric",
+    "\\blockchain_connector\\fabric\\fabric_connector",
+    "\\enclave_manager",
+    "\\enclave_manager\\avalon_enclave_manager"
+  ],
+  "SelectedNode": "\\blockchain_connector\\fabric\\fabric_connector\\fabric_connector.py",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,8 @@
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/workload/CMakeFiles/common_sgx_workload.dir
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/workload/CMakeFiles/edit_cache.dir
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/workload/CMakeFiles/rebuild_cache.dir
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/iohandler/CMakeFiles/common_sgx_iohandler.dir
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/iohandler/CMakeFiles/edit_cache.dir
+D:/avalon/code/avalon-comment/common/sgx_workload/out/build/x64-Debug/iohandler/CMakeFiles/rebuild_cache.dir

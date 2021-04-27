@@ -1,0 +1,269 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "workload/common_sgx_workload.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"TARGET_COMPILE_OPTIONS",
+			"TARGET_COMPILE_DEFINITIONS",
+			"TARGET_INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"workload/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-O2"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-write-strings"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-std=c++11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-nostdinc"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-nostdinc++"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-builtin-printf"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "USE_DL=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/../../../common/cpp"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/../../../common/cpp/crypto"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/../../../common/cpp/verify_ias_report"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/../../../common/cpp/packages/parson"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/../../../tc/sgx/trusted_worker_manager/enclave"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/../../../tc/sgx/trusted_worker_manager/enclave/kme"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/../../../tc/sgx/trusted_worker_manager/enclave/wpe"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/avalon/code/avalon-comment/common/sgx_workload/workload/.."
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/opt/intel/sgxsdk/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/opt/intel/sgxsdk/include/tlibc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/opt/intel/sgxsdk/include/libcxx"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/opt/intel/sgxssl/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				2,
+				3
+			]
+		}
+	],
+	"id" : "common_sgx_workload::@02f7fa4e9fc72a50236e",
+	"name" : "common_sgx_workload",
+	"nameOnDisk" : "common_sgx_workload.lib",
+	"paths" : 
+	{
+		"build" : "workload",
+		"source" : "workload"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "workload/work_order_data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "workload/workload_processor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "workload/work_order_data.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "workload/workload_processor.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
