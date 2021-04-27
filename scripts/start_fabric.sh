@@ -20,7 +20,7 @@ FABRIC_VERSION=2.0
 CHAIN_CODE_VERSION=1.0
 SCRIPT_DIR="$(dirname $(readlink --canonicalize ${BASH_SOURCE}))"
 # Minifab url for 0.1.0 stable version
-MINIFAB_URL=https://tinyurl.com/s8fmmvx
+MINIFAB_URL=https://tinyurl.com/yxa2q6yr
 MINIFAB_INSTALL_DIR=~/.local/bin/
 # Command line options
 WORK_DIR=$TCF_HOME/mywork
@@ -175,19 +175,19 @@ elif [ $START_FABRIC == 1 ]; then
     # If chaincode already instantiated then don't start it again.
     if [[ ! $(docker ps --format '{{.Names}}' |grep "dev-*" |grep "registry_*") ]]; then
         echo "Installing and instantiating registry chain code.."
-        minifab install,approve,instantiate -n registry -v $CHAIN_CODE_VERSION
+        minifab install,approve,commit,initialize,discover -n registry -v $CHAIN_CODE_VERSION
     fi
     if [[ ! $(docker ps --format '{{.Names}}' |grep "dev-*" |grep "worker_*") ]]; then
         echo "Installing and instantiating worker chain code.."
-        minifab install,approve,instantiate -n worker -v $CHAIN_CODE_VERSION
+        minifab install,approve,commit,initialize,discover -n worker -v $CHAIN_CODE_VERSION
     fi
     if [[ ! $(docker ps --format '{{.Names}}' |grep "dev-*" |grep "order_*") ]]; then
         echo "Installing and instantiating order chain code.."
-        minifab install,approve,instantiate -n order -v $CHAIN_CODE_VERSION
+        minifab install,approve,commit,initialize,discover -n order -v $CHAIN_CODE_VERSION
     fi
     if [[ ! $(docker ps --format '{{.Names}}' |grep "dev-*" |grep "receipt_*") ]]; then
         echo "Installing and instantiating receipt chain code.."
-        minifab install,approve,instantiate -n receipt -v $CHAIN_CODE_VERSION
+        minifab install,approve,commit,initialize,discover -n receipt -v $CHAIN_CODE_VERSION
     fi
     echo "Started fabric network..."
     docker ps --format '{{.Names}}'

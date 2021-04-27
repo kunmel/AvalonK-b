@@ -19,6 +19,7 @@ MACRO(CREATE_SUPPORTED_WORKLOADS_LIST)
     LIST(APPEND SUPPORTED_WORKLOADS_LIST "heart-disease-eval")
     LIST(APPEND SUPPORTED_WORKLOADS_LIST "inside-out-eval")
     LIST(APPEND SUPPORTED_WORKLOADS_LIST "simple-wallet")
+    LIST(APPEND SUPPORTED_WORKLOADS_LIST "new-test")
 
     # A new workload can be added by using below syntax
     # LIST(APPEND SUPPORTED_WORKLOADS_LIST "<workload_id>")
@@ -31,6 +32,7 @@ MACRO(CREATE_SUPPORTED_WORKLOAD_LIBRARY_LIST)
     LIST(APPEND SUPPORTED_WORKLOAD_LIBRARY_LIST "heart_disease_eval")
     LIST(APPEND SUPPORTED_WORKLOAD_LIBRARY_LIST "inside_out_eval")
     LIST(APPEND SUPPORTED_WORKLOAD_LIBRARY_LIST "simple_wallet")
+    LIST(APPEND SUPPORTED_WORKLOAD_LIBRARY_LIST "new_test")
 
     # A new workload library can be added by using below syntax
     # Note: Order of workloads and workload library should match the order in

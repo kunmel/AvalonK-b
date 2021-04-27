@@ -75,7 +75,7 @@ services:
         - ENCLAVE_TYPE=wpe
         # Configure list of workload that need to be supported
         # by this WPE by separating each workload by delimiter semicolon.
-        - WORKLOADS=echo-result;heart-disease-eval;inside-out-eval;simple-wallet
+        - WORKLOADS=echo-result;heart-disease-eval;inside-out-eval;simple-wallet;new-test
     volumes:
       - pool-1:/shared-pool-1
     command: |

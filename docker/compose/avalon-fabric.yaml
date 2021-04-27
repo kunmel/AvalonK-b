@@ -64,4 +64,4 @@ services:
 networks:
   default:
     external:
-      name: minifab
+      name: mysite
